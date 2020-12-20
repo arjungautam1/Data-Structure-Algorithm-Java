@@ -28,7 +28,7 @@ public class LinearSearch {
     public static void main(String[] args) {
         int array[] = {10, 20, 30, 40, 50};
         System.out.print("Given Elements are:");
-        int elements = arrayElements(array);
+        arrayElements(array);
 
         System.out.print("\n" + "Enter the number: ");
         Scanner sc = new Scanner(System.in);
