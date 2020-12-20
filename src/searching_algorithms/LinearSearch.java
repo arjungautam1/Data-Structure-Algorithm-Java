@@ -18,9 +18,10 @@ public class LinearSearch {
         }
         return -1;
     }
-    public static int arrayElements(int[] arr){
-        for(int i=0;i<arr.length;i++){
-            System.out.print(" "+ arr[i]);
+
+    public static int arrayElements(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(" " + arr[i]);
         }
         return -1;
     }
@@ -28,12 +29,12 @@ public class LinearSearch {
     public static void main(String[] args) {
         int array[] = {10, 20, 30, 40, 50};
         System.out.print("Given Elements are:");
-        int elements=arrayElements(array);
+        int elements = arrayElements(array);
 
 
-        System.out.print("\n"+"Enter the number: ");
+        System.out.print("\n" + "Enter the number: ");
         Scanner sc = new Scanner(System.in);
-        int searchElement=sc.nextInt();
+        int searchElement = sc.nextInt();
         int result = search(array, searchElement);
         if (result == -1) {
             System.out.println("Entered Number does not exist in the array");
