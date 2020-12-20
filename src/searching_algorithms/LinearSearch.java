@@ -10,7 +10,6 @@ import java.util.Scanner;
 
 public class LinearSearch {
     public static int search(int arr[], int x) {
-
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == x) {
                 return i;
@@ -31,14 +30,13 @@ public class LinearSearch {
         System.out.print("Given Elements are:");
         int elements = arrayElements(array);
 
-
         System.out.print("\n" + "Enter the number: ");
         Scanner sc = new Scanner(System.in);
         int searchElement = sc.nextInt();
         int result = search(array, searchElement);
-        if (result == -1) {
+        if (result == -1)
             System.out.println("Entered Number does not exist in the array");
-        }
-        System.out.println("Entered number is present in the index :" + result);
+        else
+            System.out.println("Entered number is present in the index :" + result);
     }
 }
