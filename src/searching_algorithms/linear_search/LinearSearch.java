@@ -4,7 +4,7 @@
  * Date : 2020-12-20
  * Time : 11:06
  */
-package searching_algorithms;
+package searching_algorithms.linear_search;
 
 import java.util.Scanner;
 
