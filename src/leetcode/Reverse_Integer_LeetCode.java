@@ -4,7 +4,7 @@
  * Date : 2020-12-27
  * Time : 12:54
  */
-package java_interview.reverse_integer;
+package leetcode;
 
 /*Leet code approach to reverse the integer*/
 class Reverse_Integer_LeetCode {
